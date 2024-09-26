@@ -5,8 +5,6 @@ from newspaper import Article
 
 nltk.download('punkt')
 
-# url = 'https://edition.cnn.com/2024/07/28/entertainment/lady-gaga-michael-polansky-engaged/index.html'
-
 def show_article_info():
     url = url_entry.get()
 
